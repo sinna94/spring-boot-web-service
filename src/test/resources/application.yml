@@ -1,0 +1,8 @@
+spring:
+  jpa:
+    show_sql: true
+    properties:
+      hibernate:
+        dialect:
+          database-platorm: org.hibernate.dialect.MySQL57Dialect
+          storage_engine: innodb

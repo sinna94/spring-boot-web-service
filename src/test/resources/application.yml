@@ -6,3 +6,11 @@ spring:
         dialect:
           database-platorm: org.hibernate.dialect.MySQL57Dialect
           storage_engine: innodb
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: test
+            client-secret: test
+            scope: profile,email
